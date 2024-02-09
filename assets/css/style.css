@@ -1,6 +1,17 @@
 * {
   box-sizing: border-box;
 }
+/* Grid CSS */
+
+#heroGrid {
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 70vh;
+  grid-template-rows: 75% 25%;
+  grid-template-columns: 75% 25%;
+  grid-template-areas: "about" "work" "contact"; 
+}
 
 body {
   margin: 0;
@@ -54,9 +65,13 @@ section {
   background-color: blueviolet;
 }
 
-/* .work{
+.work{
   background-color: aquamarine;
-} */
+}
+
+.contact{
+  background-color: green;
+}
 
 h1,
 h2,
