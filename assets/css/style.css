@@ -51,22 +51,23 @@ section {
 }
 
 .hero-banner{
-  background-image: url(../images/02-hero-bg.jpg);
+  background-image: url(https://www.london.gov.uk/sites/default/files/styles/hero_header_sm/public/london-at-night_cropped_1.jpg?h=5dabf909&itok=1QR341W4);
   background-size: cover;
   background-position: center;
-  height: 200px;
+  height: 400px;
 }
-
+ 
 
 .page-section{
   text-align: center;
 }
 .about{
-  background-color: blueviolet;
+  background-image: url(../images/02-portfolio-1.jpg);
+  text-align: left;
 }
 
 .work{
-  background-color: aquamarine;
+  background-image: url(../images/02-portfolio-2.jpg);
 }
 
 .contact{
@@ -74,8 +75,15 @@ section {
 }
 
 h1,
-h2,
-h3,
+
+h2 { 
+  text-align: right;
+}
+
+h3 {
+  text-align: left;
+}
+
 h4,
 h5,
 h6 {
