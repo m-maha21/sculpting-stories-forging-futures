@@ -39,11 +39,14 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex;
+  color:aliceblue; 
+  text-align: center;
 }
 
 nav ul li {
- 
-  margin-right: 15px;
+  margin-right: 25px;
+  font-size: 40px;
+  color:aliceblue; 
 }
 
 section {
