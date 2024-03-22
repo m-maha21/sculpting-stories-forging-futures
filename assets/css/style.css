@@ -6,10 +6,10 @@
 #heroGrid {
   margin: 10px 30%;
   display: grid;
-  height: 600px;
-  grid-template-rows: 75% 25%;
-  grid-template-columns: 75% 25%;
-  grid-template-areas: "about" "skills" "contact"; 
+  height: 200px;
+  grid-template-rows: repeat(4, 1fr); 
+  grid-template-columns: 75%;
+  grid-template-areas: "about" "skills" "projects" "contact"; 
 }
 
 body {
@@ -64,7 +64,7 @@ section {
   border-radius: 50%;
   border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%;
   position: absolute; 
-  width: 300px;
+  width: 80px;
   margin-top: -70px;
 }
 
@@ -77,14 +77,37 @@ section {
   color: aliceblue;
   margin-top: -400px;
   height: 400px;
+  font-size: 20px;
 }
 
 .work{
-  background-image: url(../images/02-portfolio-2.jpg);
+  background-image: url(https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1711065600&semt=ais);
+  color: aliceblue;
+  text-align: left;
+  height: 400px;
+  font-size: 20px;
+  margin-top: -110px; 
 }
 
-.contact{
-  background-color: green;
+.projects {
+  color:aliceblue; 
+  text-align: left;
+  font-size: 20px;
+  margin-top: 90px;
+  height: 400px;
+  background-color: url(../images/02-portfolio-2.jpg);
+}
+ .contact{ 
+  background-color: paleturquoise; 
+  height: 100px; 
+  margin-bottom: 100px; 
+  margin-top: 100px; 
+}
+.footer-content{
+color: black; 
+text-align: center;
+margin-top: 50px;
+background-color: beige;
 }
 
 h1 {
@@ -101,7 +124,8 @@ h2 {
 }
 
 h3 {
-  text-align: left;
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
 }
 
 h4,
